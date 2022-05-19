@@ -71,7 +71,6 @@ function tieneEmail (usuario) {
   }
   return false;
 }
-}
 
 function tienePropiedad (objeto, propiedad) {
   // Devuelve "true" si el objeto (parámetro "objeto") tiene una propiedad (key) cuyo nombre es igual al valor del argumento "propiedad"
@@ -89,7 +88,7 @@ function verificarPassword (usuario, password) {
   // Devuelve "true" si coinciden
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(usuario  === password){
+  if(usuario.password === password){
     return true;
   }
   return false;
@@ -99,8 +98,8 @@ function actualizarPassword (usuario, nuevaPassword) {
   // Reemplaza la contraseña existente en el objeto "usuario" con el valor de "nuevagPassword"
   // Devuelve el objeto
   // Tu código:
-  usuario.nuevaPassword = nuevagPassword;
-}
+  usuario.password = nuevaPassword;
+  return usuario;
 }
 
 function agregarAmigo (usuario, nuevoAmigo) {
