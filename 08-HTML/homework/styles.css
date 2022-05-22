@@ -1,0 +1,33 @@
+body{
+	background-image: url(https://www.wallpapertip.com/wmimgs/49-491785_4k-autumn-background.jpg);
+	background-size: cover;
+}
+h1, h3, h4{
+	color: gold;
+	text-align: center;
+}
+img{
+	width: 400px;
+}
+#thirdDiv{
+	height: 600px;
+	width: 500px;
+	background: gold;
+	padding: 50px;
+	border: 4px solid navy;
+}
+#spanId{
+	font-size: 18px;
+	margin: 50px;
+	color: gold;
+}
+.flex-container{
+			display: flex;	
+			justify-content: center;
+			flex-direction: column;
+			align-items: center;
+}
+a{
+	color: gold;
+	background-color: black; 
+}
